@@ -1,0 +1,20 @@
+/* The sidebar menu */
+.sidenav {
+    height: auto; /* Full-height: remove this if you want "auto" height */
+    width: auto; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    top: 40%; /* Stay in middle */
+    background-color: transparent;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    border-radius: 5px;
+    border-color: white;
+}
+.sidenav img {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+.sidenav img:hover {
+    width: 60px;
+    height: 60px;
+}
