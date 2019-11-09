@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Adam Wells",
+  "name": "Adam Wells Productions",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "AW-black.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },

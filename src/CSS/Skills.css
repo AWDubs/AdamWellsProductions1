@@ -1,0 +1,106 @@
+.skills {
+    background-color: rgb(138, 138, 138);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+    font-family: "Roboto", Arial, sans-serif;
+}
+.skillscontainer {
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+    flex-direction: column;
+}
+.skillshorizontal {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+}
+.skillshorizontal img {
+    width: 60%;
+    height: 60%;
+}
+.skills h2 {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9;
+}
+.skills h3 {
+    font-size: 50px;
+    /*text-align: center;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9;*/
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.skills .column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+/* Clear floats after the columns */
+.skills .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.skills .card:hover {
+    box-shadow: 0 16px 32px 10px rgba(0,0,0,0.2);
+}
+.skills .horizontal {
+    width: 60%;
+}
+.skills .arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 30px solid rgb(255, 0, 0);
+    margin: 0 auto;
+  }
+.skills ul {
+    list-style-type: none;
+    width: 1000px;
+}
+.skills li img {
+    float: left;
+    margin: 0 15px 0 0;
+    height: 150px;
+    width: 150px;
+}
+.skills li {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.skillslanguages text {
+    float: left;
+    border-right: 1px solid #aaa;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.skillslanguages text:first-child {
+    padding-left: 5px;
+}
+.skillslanguages text:last-child {
+    border-right: none;
+}
+.skills ul ul {
+    width: auto;
+  }
+  
+.skills ul ul li {
+    float: left;
+    border-right: 1px solid #aaa;
+    padding-right: 20px;
+    color: #ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+  }
+  
+.skills ul ul li:last-child {
+    border-right: none;
+  }
