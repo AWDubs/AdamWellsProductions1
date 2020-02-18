@@ -26,3 +26,61 @@
     overflow: hidden;
     border-radius: 5px;
 }
+.aboutBreakLine {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        display: block;
+    }
+    .about .card {
+        width: 100%;
+    }
+    .about .horizontal {
+        display: block;
+    }
+    .about .container h1 {
+       font-size: 25px;
+    }
+    .about p {
+        font-size: 18px;
+    }
+    .about img {
+        height: auto;
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutBreakLine {
+        display: block;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 601px) {
+    .about {
+        display: block;
+    }
+    .about .card {
+        width: 100%;
+    }
+    .about .horizontal {
+        display: block;
+    }
+    .about .container h1 {
+       font-size: 30px;
+    }
+    .about p {
+        font-size: 25px;
+    }
+    .about img {
+        height: auto;
+        width: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .aboutBreakLine {
+        display: block;
+    }
+}

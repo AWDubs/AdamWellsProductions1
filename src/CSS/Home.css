@@ -1,7 +1,7 @@
 .HomeBackground {
     background-color: rgb(5, 5, 5);
-    background-image: url("../Assets/comp.jpg");
-    /*background-image: none;*//*Used to cancel out background image to show initalbackground*/
+    background-image: url("../Assets/keyboard.jpg");
+    /*background-image: none;*/  /*Used to cancel out background image to show initial background*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -12,29 +12,28 @@
     display: flex;
     align-items: center; /* Vertical center alignment */
     flex-direction: column;
+    padding-right: 850px;
 }
 .content p {
     font-weight: bold;
     padding: 5px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     color: white;
     text-shadow: none;
-    background-color: rgba(0, 0, 0, 0.8);
 }
 .fifthFont {
     font-family: "Roboto", Arial, sans-serif;
-    color: black;
+    color: white;
     font-weight: bold;
-    font-size: 50px;
-    text-align: right;
+    font-size: 40px;
     padding-right: 20px;
-    padding-top: 100px;
-    text-shadow: 0 2px 3px white;
+    padding-top: 0px;
 }
 .centralFont {
     font-family: "Roboto", Arial, sans-serif;
-    padding-top: 350px;
+    padding-top: 250px;
+    padding-bottom: 120px;
 }
 .centralFont p {
     font-weight: bold;
@@ -50,6 +49,7 @@
     border-radius: 1px;
     text-shadow: 0 2px 3px red, 0 3px 4px black;
     background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
 }
 .centralFont text {
     color: white;
@@ -68,11 +68,16 @@
     background-color: white;
     border-radius: 40%;
 }
+.wordBlock {
+    position:relative; left:800px;
+}
+
+
 .typingeffect {
     overflow: hidden;
     /*width: 55%;*/
 }
-  .typingeffect text {
+.typingeffect text {
     border-right-style: solid;
     border-color: transparent;
     overflow: hidden;
@@ -81,13 +86,47 @@
     padding-right: 20px;
     -webkit-animation: typewriter 4s steps(40, end);
             animation: typewriter 4s steps(40, end);
-  }
+}
 
-  @keyframes typewriter{
+@keyframes typewriter{
     from{ width: 0%; opacity: 0; border-right: .05em white;}
     to{ width: 100%; opacity: 100%; border-right: 0em;}
-  }
-  @keyframes fadeIn{
+}
+@keyframes fadeIn{
     from{ opacity: 0; }
     to{ opacity: 100%; }
-  }
+}
+@media screen and (max-width: 600px) {
+    .content {
+        padding-right: 0px;
+    }
+    .HomeBackground {
+        height: 100%;
+    }
+    .centralFont {
+        padding-top: 80px;
+    }
+    .centralFont text {
+        font-size: 25px;
+    }
+    .centralFont p {
+        font-size: 25px;
+    }
+    .content p {
+        font-size: 25px;
+    }
+    .fifthFont {
+        font-size: 20px;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 601px) {
+    .content {
+        padding-right: 0px;
+    }
+    .centralFont {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+   
+}

@@ -8,23 +8,26 @@ export default class Home extends React.Component {
                 <h1>Services I Provide</h1>
                 <div className="skillscontainer">
                     <div className="skillshorizontal">
-                        <img src={require("../Assets/all.png")} />
+                        <img src={require("../Assets/all.png")} alt='null' />
                         <ul>
                             <li>
-                                <img src={require("../Assets/computer_icon.png")} />
+                                <img src={require("../Assets/computer_icon.png")} alt='null' />
                                 <div>
                                     <h3>Websites</h3>
                                     <div className="skillslanguages">
                                         <text>React.js</text>
+                                        <br className="skillsBreakLine" />
                                         <text>HTML</text>
+                                        <br className="skillsBreakLine" />
                                         <text>CSS</text>
+                                        <br className="skillsBreakLine" />
                                         <text>JavaScript</text>
                                     </div>
                                 </div>
                             </li>
                             
                             <li>
-                                <img src={require("../Assets/phone_icon.png")} />
+                                <img src={require("../Assets/phone_icon.png")} alt='null' />
                                 <div>
                                     <h3>Mobile Apps</h3>
                                     <div className="skillslanguages">
@@ -34,18 +37,20 @@ export default class Home extends React.Component {
                             </li>
                         
                             <li>
-                                <img src={require("../Assets/server_icon.png")} />
+                                <img src={require("../Assets/server_icon.png")} alt='null' />
                                 <div>
                                     <h3>Server & Backend</h3>
                                     <div className="skillslanguages">
                                         <text>Microsoft Azure</text>
+                                        <br className="skillsBreakLine" />
                                         <text>C#</text>
+                                        <br className="skillsBreakLine" />
                                         <text>Python</text>
+                                        <br className="skillsBreakLine" />
                                         <text>SQL</text>
-                                    </div>
-                                    <br></br>
-                                    <div className="skillslanguages">
+                                        <br className="skillsBreakLine" />
                                         <text>C++</text>
+                                        <br className="skillsBreakLine" />
                                         <text>Java</text>
                                     </div>
                                 </div>
