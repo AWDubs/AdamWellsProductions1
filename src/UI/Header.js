@@ -6,13 +6,12 @@ export default class Header extends React.Component {
         return(
             <div className="header">
                 <div className="nameCard"><p>Adam Wells</p></div>
-                <img src={require("../Assets/AW.png")} />
+                <img src={require("../Assets/AW.png")} alt='null' />
                 <ul>
-                    <li><a href="#about">About</a></li>
                     <li><a href="#skills">Services</a></li>
                     <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="mailto:wellsadam82@gmail.com">wellsadam82@gmail.com</a></li>
                 </ul> 
             </div>
         );
@@ -20,7 +19,7 @@ export default class Header extends React.Component {
     nameCard = () => {
         return(
             <div className="nameCard horizontal">
-                <img src={require("../Assets/Adam.jpg")} />
+                <img src={require("../Assets/Adam.jpg")} alt='null' />
                 <p>Adam<br></br>Wells</p>
             </div>
         );

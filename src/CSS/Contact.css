@@ -54,3 +54,41 @@
     margin: 0 auto;
     width: 50%;
 }
+
+@media screen and (max-width: 600px) {
+    .contact h2 {
+        display: none;
+    }
+    .contact h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .contact h4 a {
+        font-size: 1.2rem;
+    }
+    .contact_center {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 601px) {
+    .contact {
+        min-height: 60vh;  
+    }
+    .contact h2 {
+        display: none;
+    }
+    .contact h3 {
+        font-size: 60px;
+        text-align: center;
+    }
+    .contact h4 a {
+        font-size: 1.6rem;
+    }
+    .contact_center {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+}

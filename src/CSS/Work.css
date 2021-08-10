@@ -42,15 +42,52 @@
     font-size: 25px;
 }
 .card img {
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;*/
     margin:10px 10px 10px 10px;
     padding: 0px;
 }
 .card .imgDiv {
-    /*display: block;
-    margin-left: auto;
-    margin-right: auto;*/
     float:right;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 80%;
+    }
+    .card h2 {
+        font-size: 40px;
+    }
+    .card h4 {
+        font-size: 18px;
+        text-align: left;
+    }
+    .card h5 {
+        font-size: 10px;
+    }
+    .card h6 {
+        font-size: 10px;
+    }
+    .card p {
+        font-size: 15px;
+    }
+    .card img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 601px) {
+    .card h2 {
+        font-size: 80px;
+    }
+    .card h4 {
+        font-size: 32px;
+        text-align: left;
+    }
+    .card h5 {
+        font-size: 20px;
+    }
+    .card h6 {
+        font-size: 20px;
+    }
+    .card p {
+        font-size: 30px;
+    }
 }

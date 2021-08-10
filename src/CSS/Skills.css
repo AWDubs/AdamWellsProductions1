@@ -104,3 +104,70 @@
 .skills ul ul li:last-child {
     border-right: none;
   }
+
+  .skillsBreakLine{
+    display: none;
+}
+
+  @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    .skillshorizontal img {
+        display: none;
+    }
+    .skillshorizontal ul img {
+        display: block;
+        height: 80px;
+        width: 80px;
+    }
+    .skills ul {
+        width: 100%;
+    }
+    .skills h3 {
+        font-size: 30px;
+    }
+    .skills text {
+        font-size: 15px;
+    }
+    .skillslanguages text{
+        border-right: none;
+        padding-left: 5px;
+    }
+    .skillsBreakLine{
+        display: block;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 601px) {
+    .skills {
+        min-height: 0;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    .skillshorizontal img {
+        display: none;
+    }
+    .skillshorizontal ul img {
+        display: block;
+        height: 150px;
+        width: 150px;
+    }
+    .skills ul {
+        width: 100%;
+    }
+    .skills h3 {
+        font-size: 60px;
+    }
+    .skills text {
+        font-size: 40px;
+    }
+    .skillslanguages text{
+        border-right: none;
+        padding-left: 5px;
+        float: none;
+    }
+    .skillsBreakLine{
+        display: block;
+    }
+}

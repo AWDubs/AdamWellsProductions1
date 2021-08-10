@@ -9,6 +9,7 @@ export default class About extends React.Component {
                 <h1></h1>
                     <div className="horizontal">
                         <img src={require('../Assets/Adam.jpg')} alt=''/>
+                        <br className="aboutBreakLine" />
                         <div className="card">
                             <div className="container">
                                 <h1>My name is Adam Wells</h1>
