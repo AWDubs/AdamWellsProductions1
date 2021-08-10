@@ -16,7 +16,7 @@ jobs:
 
 
       - name: Install and build
-        run: npm install && npm run deploy
+        run: npm install && npm run build
 
 
       - name: Deploy
